@@ -1,0 +1,4 @@
+# Store submission assets & launch posts (not part of the open-source package)
+store/
+*.zip
+*.log

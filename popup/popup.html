@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1>UA Switcher</h1>
+    <span id="version" class="version">v0.1.0</span>
+  </header>
+
+  <section class="site-card">
+    <div class="site-row">
+      <span id="site-name" class="site-name">—</span>
+      <label class="switch">
+        <input type="checkbox" id="site-enabled">
+        <span class="slider"></span>
+      </label>
+    </div>
+    <div id="site-status" class="site-status">No override on this site</div>
+  </section>
+
+  <section class="profiles">
+    <h2>Pick a profile for this site</h2>
+    <div id="profile-list" class="profile-list"></div>
+  </section>
+
+  <footer>
+    <a id="verify-link" href="https://browserleaks.com/user-agent" target="_blank">Verify on BrowserLeaks ↗</a>
+    <span id="hint" class="hint"></span>
+  </footer>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
