@@ -16,7 +16,7 @@ UA Switcher rewrites **every layer in sync**, driven by a single profile data so
 
 **From the Edge Add-ons store** (recommended):
 
-> Link coming after store review.
+> [Install UA Switcher from Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/ua-switcher-%E2%80%94-client-hint/bpaaoegldmkigpnbpdindcfblbnokeii)
 
 **Manual (developer mode)**:
 
