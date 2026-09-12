@@ -42,6 +42,8 @@ function toast(msg) {
 }
 
 async function init() {
+  document.getElementById('version').textContent = 'v' + chrome.runtime.getManifest().version;
+
   const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
   let host = null;
   let protocol = null;
